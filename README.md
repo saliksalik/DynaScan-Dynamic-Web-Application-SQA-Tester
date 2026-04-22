@@ -18,6 +18,10 @@ dynamic-sqa-scanner/
 
 ## Dashboard Screenshots
 
+### Architecture Diagram
+
+![DynaScan Architecture Diagram](dashboard%20images/DynaScan%20Architecture%20Diagram.png)
+
 ### Website Layout
 
 ![Website Layout](dashboard%20images/Website%20Layout.png)

@@ -16,7 +16,7 @@ dynamic-sqa-scanner/
 
 ---
 
-## Dashboard Screenshots
+
 
 ### Architecture Diagram
 

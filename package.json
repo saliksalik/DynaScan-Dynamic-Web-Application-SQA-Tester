@@ -1,0 +1,21 @@
+{
+  "name": "dynamic-sqa-scanner",
+  "version": "1.0.0",
+  "description": "Testing-as-a-Service Dynamic Automated Scanner",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "scanner-engine"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "install:all": "npm install && npm install --workspace=frontend && npm install --workspace=backend && npm install --workspace=scanner-engine",
+    "build:frontend": "npm run build --workspace=frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

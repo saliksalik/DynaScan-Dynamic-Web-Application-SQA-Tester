@@ -1,0 +1,15 @@
+What failed tests mean
+A failed test means the scanner found something that did not meet the expected behavior.
+In this project, failures usually indicate a problem with the scanned target:
+security headers missing
+mixed content
+bad API response status
+invalid JSON contract
+server error on invalid probe
+You should treat failed tests as actionable findings and fix the target site or API behavior.
+What skipped tests mean
+A skipped test means the test could not run because the required condition was not present.
+Examples in this project:
+no XHR/fetch API calls were captured, so API response checks were skipped
+no /health endpoint existed, so health endpoint validation was skipped
+Skipped tests are not failures; they just mean that test wasn’t applicable for this target.

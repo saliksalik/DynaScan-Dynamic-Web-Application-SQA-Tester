@@ -1,0 +1,19 @@
+# Dependency directories
+node_modules/
+
+# Generated reports and build output
+reports/
+**/allure-results/
+
+# Common editor / OS files
+.DS_Store
+.vscode/
+.idea/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+

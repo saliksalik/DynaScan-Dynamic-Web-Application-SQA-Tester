@@ -16,6 +16,34 @@ dynamic-sqa-scanner/
 
 ---
 
+## Dashboard Screenshots
+
+### Website Layout
+
+![Website Layout](dashboard%20images/Website%20Layout.png)
+
+### Scanning Execution
+
+![Scanning starts and tests get executed](dashboard%20images/Scanning%20starts%20and%20tests%20get%20executed.png)
+
+### Scan Complete
+
+![Scan Complete](dashboard%20images/Scan%20Complete%20.png)
+
+### Metrics Report
+
+![Metrics report](dashboard%20images/Metrics%20report.png)
+
+### Allure Report Generated
+
+![Allure report generated](dashboard%20images/Alure%20report%20Generated.png)
+
+### All Test Information Stored
+
+![All test information stored](dashboard%20images/All%20test%20inforfamtion%20stored%20.png)
+
+---
+
 ## Quick Start
 
 ### Prerequisites
